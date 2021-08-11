@@ -97,12 +97,13 @@ div.box{
 }
 div.box:first-child{
     background-image: url(imgs/heart\ icon.png);
-    background-position: 0px;
+    background-position: 0;
     background-repeat: no-repeat; 
-    padding-right: 50px;
-    padding-left:55px;
+    margin-right:10px;
+    padding-right: 90px;
+    padding-left:56px;
     margin-left:30px;
-    margin-right: 70px;
+    margin-right: 63px;
     margin-top:0;
     
 }
@@ -111,8 +112,8 @@ div.box:last-child{
     background-image: url(imgs/chat\ icon.png);
     background-position: 0px;
     background-repeat: no-repeat; 
-    padding-left: 69px;
-    padding-right: 164px;
+    padding-left: 65px;
+    padding-right: 215px;
     width:460x;
     margin-top:0;
     
@@ -124,8 +125,8 @@ div.box p{
     color:black;
     margin-top:5px;
     padding-top: 10px;
-    padding-right:40px; 
-    padding: 20px;
+    padding-right:0px; 
+   
 }
 
 div.align{
