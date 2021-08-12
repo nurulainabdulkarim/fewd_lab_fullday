@@ -548,7 +548,7 @@ div.buttonbelow button {
 
 @media(max-width:500px) {
     .buttonbelow {
-        margin-left: 70px;
+        margin-left: 60px;
         margin-bottom: 50px;
         margin-top: 50px;
     }
@@ -619,5 +619,6 @@ div.footerposition p {
     
     div.footerposition p {
         text-align: center;
+        padding-right:30px;
     }
 }
