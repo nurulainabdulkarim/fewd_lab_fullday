@@ -1,25 +1,25 @@
-body{
+body {
     font-family: 'Nunito', Arial, sans-serif;
     font-size: 18px;
-    margin:0;
+    margin: 0;
 }
-  
-.bgwhite{
-    background-color:  white;
+
+.bgwhite {
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
 
-div.logo{
+div.logo {
     padding-left: 30px;
     padding-top: 5px;
 }
 
-div.navbar{
+div.navbar {
     padding: 10px 10px;
 }
 
-div.navbar > a{
+div.navbar>a {
     margin: 10px;
     text-decoration: none;
     color: grey;
@@ -54,7 +54,7 @@ div.navbar > a{
 
 }
 
-.banner{
+.banner {
     background-image: url(imgs/banner.jpg);
     background-position: relative;
     background-repeat: no-repeat;
@@ -63,19 +63,19 @@ div.navbar > a{
     height: 30em;
 }
 
-div > h1{
+div>h1 {
     color: white;
     font-size: 55px;
     margin: 0;
 }
 
-div > p{
+div>p {
     color: white;
-   
+
 }
 
-.banner > .container{
-    display: flex;   
+.banner>.container {
+    display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-items: center;
@@ -83,21 +83,21 @@ div > p{
     margin-bottom: 0;
 }
 
-div.btn button{
+div.btn button {
     background-color: rgb(237, 108, 104);
     color: white;
     padding: 20px 40px;
     border: 1px solid red;
     cursor: pointer;
-    width:300px;
+    width: 300px;
     font-family: 'Nunito', Arial, sans-serif;
     font-size: 20px;
     box-shadow: 1px 3px red;
     border-radius: 5px;
-    border:rgb(237, 108, 104);
+    border: rgb(237, 108, 104);
 }
 
-div.btn button:hover{
+div.btn button:hover {
     background-color: rgb(184, 38, 57);
 }
 
@@ -143,21 +143,21 @@ div.btn button:hover{
     }
 }
 
-.header2{
+.header2 {
     background-color: rgb(216, 216, 216);
     height: 400px;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 /*start here*/
-div.title{
+div.title {
     background-color: rgb(231, 245, 237);
-    padding:0px 206px;
+    padding: 0px 206px;
     margin-top: 30px;
 }
 
-.flex{
-    display:flex;
+.flex {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -165,11 +165,12 @@ div.title{
 
 
 
-div.box{
+div.box {
     background-color: white;
-    margin-top:50px;
+    margin-top: 50px;
 }
-div.box:first-child{
+
+div.box:first-child {
     background-image: url(imgs/heart\ icon.png);
     background-position: 0;
     background-repeat: no-repeat;
@@ -179,35 +180,36 @@ div.box:first-child{
     margin-left: 31px;
     margin-right: 61px;
     margin-top: 0;
-    
+
 }
 
-div.box:last-child{
+div.box:last-child {
     background-image: url(imgs/chat\ icon.png);
     background-position: 0px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     padding-left: 70px;
     padding-right: 161px;
-    width:460x;
-    margin-top:0;
-    
+    width: 460x;
+    margin-top: 0;
+
 }
 
-div.box p{
-    width:450px;
+div.box p {
+    width: 450px;
     padding-bottom: 30px;
-    color:black;
-    margin-top:30px;
+    color: black;
+    margin-top: 30px;
     padding-top: 10px;
-    padding-right:0px; 
-   
+    padding-right: 0px;
+
 }
 
-div.align{
+div.align {
     display: flex;
     justify-content: space-between;
 }
-div.align:last-child{
+
+div.align:last-child {
     padding-right: 230px;
 }
 
@@ -220,8 +222,8 @@ div.align:last-child{
 
     div.title {
         background-color: rgb(231, 245, 237);
-        padding-left:0;
-        padding-right:0;
+        padding-left: 0;
+        padding-right: 0;
         margin-top: 30px;
         font-size: 7px
     }
@@ -237,7 +239,7 @@ div.align:last-child{
         padding-right: 30px;
     }
 
- 
+
 
     .flex {
         display: flex;
@@ -251,12 +253,12 @@ div.align:last-child{
         font-size: 20px;
     }
 
-   .box > p{
-        padding-left:50px;
+    .box>p {
+        padding-left: 50px;
     }
 
-    .box > .tourist p{
-        padding-left:18px;
+    .box>.tourist p {
+        padding-left: 18px;
     }
 
     div.box:first-child {
@@ -303,234 +305,319 @@ div.align:last-child{
 
 
 
-div.recolor{
-    padding-left:465px;
+div.recolor {
+    padding-left: 465px;
     padding-top: 70px;
     font-size: 30px;
 }
-div.recolor h2{
-    color: black; 
-  /*  font-family: 'Anton', sans-serif;*/
-    position:center;
+
+div.recolor h2 {
+    color: black;
+    /*  font-family: 'Anton', sans-serif;*/
+    position: center;
 }
-div.explore{
+
+div.explore {
     padding-left: 480px;
 }
-div.explore h3{
-   /* font-family: 'Anton', sans-serif;*/
+
+div.explore h3 {
+    /* font-family: 'Anton', sans-serif;*/
     color: black;
 }
 
 @media(max-width:500px) {
-    div.recolor{
+    div.recolor {
         padding-left: 0px;
         text-align: center;
         font-size: 18px;
     }
-    div.recolor h2{
-        color: black; 
-        margin:0;
-      /*  font-family: 'Anton', sans-serif;*/
-        
+
+    div.recolor h2 {
+        color: black;
+        margin: 0;
+        /*  font-family: 'Anton', sans-serif;*/
+
     }
-    div.explore{
+
+    div.explore {
         padding-left: 0px;
         text-align: center;
         font-size: 14px;
         padding: 10px;
     }
-    div.explore h3{
-       /* font-family: 'Anton', sans-serif;*/
+
+    div.explore h3 {
+        /* font-family: 'Anton', sans-serif;*/
         color: black;
-        margin:0;
+        margin: 0;
     }
 }
 
 
-.three__box{
-    display:flex;
+.three__box {
+    display: flex;
 }
 
-div.one img{
+div.one img {
     width: 400px;
-    padding-left:0px;
-    
+    padding-left: 0px;
+
 }
 
-div.two img{
+div.two img {
     width: 400px;
     justify-content: center;
-      
+
 }
 
 
 
-div.three__box img{
+div.three__box img {
     width: 400px;
-    margin-right: 0px; 
-   
-    
+    margin-right: 0px;
+
+
 }
 
-div.boxcontent{
+div.boxcontent {
     background-color: rgb(167, 164, 164);
-    margin:30px;
+    margin: 30px;
     padding-bottom: 60px;
-    padding-left:0px;
-    padding-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
 
 
 
-div.fitzroy div{
-    margin-left:120px;
+div.fitzroy div {
+    margin-left: 120px;
     justify-content: center;
     position: absolute;
     color: black;
-    padding-top:120px;
-    
+    padding-top: 120px;
+
 
 }
 
-.hip h5{
-    padding-left:15px;
+.hip h5 {
+    padding-left: 15px;
 }
 
-.cake h5{
-    padding-left:35px;
-}
-
-
-.coffee h5{
-    padding-left:70px;
+.cake h5 {
+    padding-left: 35px;
 }
 
 
+.coffee h5 {
+    padding-left: 70px;
+}
 
-div.kilda div{
-    margin-left:120px;
+
+
+div.kilda div {
+    margin-left: 120px;
     justify-content: center;
     position: absolute;
-    color:black;
-    padding-top:120px;
-   
-}
-div.central div{
-    margin-left:120px;
-    margin-right:40px;
-    justify-content: center;
-    position: absolute;
-    color:black;
-    padding-top:120px;
-    
+    color: black;
+    padding-top: 120px;
+
 }
 
-    @media(max-width:500px) {
-        .three__box{
-            display:flex;
-            align-content: column;
-        }
-        
-        div.one img{
-            width: 400px;
-            padding-left:0px;
-            
-        }
-        
-        div.two img{
-            width: 400px;
-            justify-content: center;
-              
-        }
-        
-        
-        
-        div.three__box img{
-            width: 400px;
-            margin-right: 0px; 
-           
-            
-        }
-        
-        div.boxcontent{
-            background-color: rgb(167, 164, 164);
-            margin:30px;
-            padding-bottom: 60px;
-            padding-left:0px;
-            padding-right:0px;
-        }
-        
-        
-        
-        
-        div.fitzroy div{
-            margin-left:120px;
-            justify-content: center;
-            position: absolute;
-            color: black;
-            padding-top:120px;
-            
-        
-        }
-        
-        div.kilda div{
-            margin-left:120px;
-            justify-content: center;
-            position: absolute;
-            color:black;
-            padding-top:120px;
-           
-        }
-        div.central div{
-            margin-left:120px;
-            margin-right:40px;
-            justify-content: center;
-            position: absolute;
-            color:black;
-            padding-top:120px;
-            
-        }
+div.central div {
+    margin-left: 120px;
+    margin-right: 40px;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    padding-top: 120px;
+
+}
+
+@media(max-width:500px) {
+    .three__box {
+        display: grid;
+        align-content: column;
+    }
+
+    div.one img {
+        width: 250px;
+        padding-left: 0px;
 
     }
 
-.buttonbelow{
-    margin-left:550px;
-    margin-bottom: 50px;
-    margin-top:50px;
+    div.two img {
+        width: 250px;
+        justify-content: center;
+    }
+
+
+
+    div.three__box img {
+        width: 250px;
+        margin-right: 0px;
+    }
+
+    div.boxcontent {
+        background-color: rgb(167, 164, 164);
+        margin: 38px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.fitzroy div {
+        margin-left: 90px;
+        justify-content: center;
+        position: absolute;
+        color: black;
+        padding-top: 70px;
+        text-align: center;
+        font-size: 16px;
+
+
+    }
+
+    div.kilda div {
+        margin-left: 44px;
+        justify-content: center;
+        position: absolute;
+        color: black;
+        padding-top: 70px;
+        text-align: center;
+        font-size: 16px;
+
+    }
+
+    div.central div {
+        margin-left: 54px;
+        margin-right: 40px;
+        justify-content: center;
+        position: absolute;
+        color: black;
+        padding-top: 70px;
+        text-align: center;
+        font-size: 16px;
+
+    }
+
+    .hip h5 {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+
+    .cake h5 {
+        padding-left: 3px;
+        text-align: center;
+    }
+
+
+    .coffee h5 {
+        padding-left: 1px;
+        text-align: center;
+    }
+
 }
 
-div.buttonbelow button{
+.buttonbelow {
+    margin-left: 550px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div.buttonbelow button {
     background-color: rgb(237, 108, 104);
     color: white;
     padding: 80px 80px;
     cursor: pointer;
-    width:300px;
+    width: 300px;
     font-family: 'Nunito', Arial, sans-serif;
     font-size: 20px;
     padding: 20px;
     box-shadow: 1px 3px red;
     border-radius: 5px;
-    border:rgb(237, 108, 104);
+    border: rgb(237, 108, 104);
 }
 
-.buttonbelow button:hover{
+.buttonbelow button:hover {
     background-color: rgb(184, 38, 57);
 }
 
-.footer{
+@media(max-width:500px) {
+    .buttonbelow {
+        margin-left: 70px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    div.buttonbelow button {
+        background-color: rgb(237, 108, 104);
+        color: white;
+        padding: 5px 10px;
+        border: 1px solid red;
+        cursor: pointer;
+        width: 200px;
+        font-family: 'Nunito', Arial, sans-serif;
+        font-size: 13px;
+        box-shadow: 1px 3px red;
+        border-radius: 5px;
+        border: rgb(237, 108, 104); 
+
+
+        /* coding buutton bawah */
+        /* background-color: rgb(237, 108, 104);
+        color: white;
+        padding: 30px 30px;
+        cursor: pointer;
+        width: 300px;
+        font-family: 'Nunito', Arial, sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        box-shadow: 1px 3px red;
+        border-radius: 5px;
+        border: rgb(237, 108, 104); */
+        
+    }
+    
+    .buttonbelow button:hover {
+        background-color: rgb(184, 38, 57);
+    }
+    
+}
+
+.footer {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-div.footerposition{
-    height:120px;
-    padding-top:60px;
-    padding-right:30px;
-    padding-bottom:10px;
+div.footerposition {
+    height: 120px;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
-div.footerposition p{
+div.footerposition p {
     text-align: center;
+}
+
+@media(max-width:500px) {
+    .footer {
+        background-color: black;
+        color: white;
+    }
+    
+    div.footerposition {
+        height: 50px;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+    
+    div.footerposition p {
+        text-align: center;
+    }
 }
