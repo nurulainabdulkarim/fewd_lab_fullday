@@ -566,19 +566,6 @@ div.buttonbelow button {
         border-radius: 5px;
         border: rgb(237, 108, 104); 
 
-
-        /* coding buutton bawah */
-        /* background-color: rgb(237, 108, 104);
-        color: white;
-        padding: 30px 30px;
-        cursor: pointer;
-        width: 300px;
-        font-family: 'Nunito', Arial, sans-serif;
-        font-size: 20px;
-        padding: 10px;
-        box-shadow: 1px 3px red;
-        border-radius: 5px;
-        border: rgb(237, 108, 104); */
         
     }
     
@@ -619,6 +606,5 @@ div.footerposition p {
     
     div.footerposition p {
         text-align: center;
-        padding-right:30px;
     }
 }
