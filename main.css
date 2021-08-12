@@ -22,7 +22,7 @@ div.navbar{
 div.navbar > a{
     margin: 10px;
     text-decoration: none;
-    color: grey;
+    color: black;
 }
 
 @media(max-width:340px) {
