@@ -22,7 +22,7 @@ div.navbar{
 div.navbar > a{
     margin: 10px;
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 @media(max-width:500px) {
@@ -375,33 +375,9 @@ div.three__box img{
 div.boxcontent{
     background-color: rgb(167, 164, 164);
     margin:30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     padding-left:0px;
     padding-right:0px;
-}
-/*
-div.boxcontent h5{
-    padding-left:60px;
-   
-}
-*/
-
-div.boxcontent > div.hip h5{
-
-    padding-left:15px;
-   
-}
-
-div.boxcontent > div.cake h5{
-
-    padding-left:33px;
-   
-}
-
-div.boxcontent > div.coffee h5{
-
-    padding-left:70px;
-   
 }
 
 
@@ -417,6 +393,21 @@ div.fitzroy div{
     
 
 }
+
+.hip h5{
+    padding-left:15px;
+}
+
+.cake h5{
+    padding-left:35px;
+}
+
+
+.coffee h5{
+    padding-left:70px;
+}
+
+
 
 div.kilda div{
     margin-left:120px;
@@ -435,6 +426,74 @@ div.central div{
     padding-top:120px;
     
 }
+
+    @media(max-width:500px) {
+        .three__box{
+            display:flex;
+            align-content: column;
+        }
+        
+        div.one img{
+            width: 400px;
+            padding-left:0px;
+            
+        }
+        
+        div.two img{
+            width: 400px;
+            justify-content: center;
+              
+        }
+        
+        
+        
+        div.three__box img{
+            width: 400px;
+            margin-right: 0px; 
+           
+            
+        }
+        
+        div.boxcontent{
+            background-color: rgb(167, 164, 164);
+            margin:30px;
+            padding-bottom: 60px;
+            padding-left:0px;
+            padding-right:0px;
+        }
+        
+        
+        
+        
+        div.fitzroy div{
+            margin-left:120px;
+            justify-content: center;
+            position: absolute;
+            color: black;
+            padding-top:120px;
+            
+        
+        }
+        
+        div.kilda div{
+            margin-left:120px;
+            justify-content: center;
+            position: absolute;
+            color:black;
+            padding-top:120px;
+           
+        }
+        div.central div{
+            margin-left:120px;
+            margin-right:40px;
+            justify-content: center;
+            position: absolute;
+            color:black;
+            padding-top:120px;
+            
+        }
+
+    }
 
 .buttonbelow{
     margin-left:550px;
