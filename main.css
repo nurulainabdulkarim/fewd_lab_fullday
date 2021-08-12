@@ -22,10 +22,10 @@ div.navbar{
 div.navbar > a{
     margin: 10px;
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
-@media(max-width:340px) {
+@media(max-width:500px) {
     .bgwhite {
         background-color: white;
         display: flex;
@@ -101,7 +101,7 @@ div.btn button:hover{
     background-color: rgb(184, 38, 57);
 }
 
-@media(max-width:340px) {
+@media(max-width:500px) {
     div>h1 {
         color: white;
         font-size: 30px;
@@ -211,7 +211,7 @@ div.align:last-child{
     padding-right: 230px;
 }
 
-@media(max-width:340px) {
+@media(max-width:500px) {
     .header2 {
         background-color: rgb(216, 216, 216);
         height: 200px;
