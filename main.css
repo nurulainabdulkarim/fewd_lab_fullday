@@ -304,10 +304,11 @@ div.align:last-child{
 
 
 div.recolor{
-    padding-left:380px;
+    padding-left:465px;
     padding-top: 70px;
+    font-size: 30px;
 }
-div.recolor h1{
+div.recolor h2{
     color: black; 
   /*  font-family: 'Anton', sans-serif;*/
     position:center;
@@ -318,6 +319,31 @@ div.explore{
 div.explore h3{
    /* font-family: 'Anton', sans-serif;*/
     color: black;
+}
+
+@media(max-width:500px) {
+    div.recolor{
+        padding-left: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+    div.recolor h2{
+        color: black; 
+        margin:0;
+      /*  font-family: 'Anton', sans-serif;*/
+        
+    }
+    div.explore{
+        padding-left: 0px;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+    div.explore h3{
+       /* font-family: 'Anton', sans-serif;*/
+        color: black;
+        margin:0;
+    }
 }
 
 
