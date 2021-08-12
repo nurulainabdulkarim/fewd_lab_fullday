@@ -25,6 +25,35 @@ div.navbar > a{
     color: grey;
 }
 
+@media(max-width:340px) {
+    .bgwhite {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.logo {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    div.navbar {
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+    div.navbar>a {
+        margin: 10px;
+        text-decoration: none;
+        color: grey;
+    }
+
+}
+
 .banner{
     background-image: url(imgs/banner.jpg);
     background-position: relative;
@@ -72,6 +101,48 @@ div.btn button:hover{
     background-color: rgb(184, 38, 57);
 }
 
+@media(max-width:340px) {
+    div>h1 {
+        color: white;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    div>p {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .banner>.container {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 200px;
+        margin-bottom: 0;
+    }
+
+    div.btn button {
+        background-color: rgb(237, 108, 104);
+        color: white;
+        padding: 5px 10px;
+        border: 1px solid red;
+        cursor: pointer;
+        width: 200px;
+        font-family: 'Nunito', Arial, sans-serif;
+        font-size: 13px;
+        box-shadow: 1px 3px red;
+        border-radius: 5px;
+        border: rgb(237, 108, 104);
+    }
+
+    div.btn button:hover {
+        background-color: rgb(184, 38, 57);
+    }
+}
+
 .header2{
     background-color: rgb(216, 216, 216);
     height: 400px;
@@ -101,13 +172,13 @@ div.box{
 div.box:first-child{
     background-image: url(imgs/heart\ icon.png);
     background-position: 0;
-    background-repeat: no-repeat; 
-    margin-right:10px;
-    padding-right: 90px;
-    padding-left:56px;
-    margin-left:30px;
-    margin-right: 63px;
-    margin-top:0;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    padding-right: 38px;
+    padding-left: 57px;
+    margin-left: 31px;
+    margin-right: 61px;
+    margin-top: 0;
     
 }
 
@@ -115,15 +186,15 @@ div.box:last-child{
     background-image: url(imgs/chat\ icon.png);
     background-position: 0px;
     background-repeat: no-repeat; 
-    padding-left: 65px;
-    padding-right: 215px;
+    padding-left: 70px;
+    padding-right: 161px;
     width:460x;
     margin-top:0;
     
 }
 
 div.box p{
-    width:400px;
+    width:450px;
     padding-bottom: 30px;
     color:black;
     margin-top:30px;
@@ -139,6 +210,86 @@ div.align{
 div.align:last-child{
     padding-right: 230px;
 }
+
+@media(max-width:340px) {
+    .header2 {
+        background-color: rgb(216, 216, 216);
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    div.title {
+        background-color: rgb(231, 245, 237);
+        padding-left:0;
+        padding-right:0;
+        margin-top: 30px;
+        font-size: 7px
+    }
+
+    div.title>div.love {
+        padding-right: 72px;
+        padding-left: 0px;
+    }
+
+    div.title>div.complain {
+        padding-left:11px;
+    }
+
+ 
+
+    .flex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    div.box {
+        background-color: white;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    div.box:first-child {
+        background-image: url(imgs/heart\ icon.png);
+        background-size: 30px;
+        background-position: 0;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 14px;
+        margin-right: 20px;
+        margin-top: 0;
+
+    }
+
+    div.box:last-child {
+        background-image: url(imgs/chat\ icon.png);
+        background-size: 30px;
+        background-position: 1px;
+        background-repeat: no-repeat;
+        padding-left: 10px;
+        padding-right: 108px;
+        width: 460x;
+        margin-top: 0;
+    }
+
+    div.box p {
+        width: 100px;
+        height: 60px;
+        padding-bottom: 0px;
+        color: black;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        font-size: 7px;
+        text-align: inherit;
+    }
+
+}
+
 
 
 
@@ -194,7 +345,6 @@ div.boxcontent{
 }
 /*
 div.boxcontent h5{
-
     padding-left:60px;
    
 }
