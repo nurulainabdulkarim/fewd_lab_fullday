@@ -301,6 +301,131 @@ div.align:last-child {
     }
 
 }
+@media(min-width:1440px) {
+    .header2 {
+        background-color: rgb(216, 216, 216);
+        height: 280px;
+        padding-top: 79px;
+    }
+
+    .box_love {
+        background-color: rgb(231, 245, 237);
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 30px;
+        font-size: 15px
+    }
+
+    .box_complain{
+        background-color: rgb(231, 245, 237);
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 30px;
+        font-size: 15px
+
+    }
+    
+
+
+    .title_love h2{
+        position: absolute;
+        right: 35.1em;
+        top: 28em;
+        background-color: rgb(231, 245, 237);
+        padding-left: 21px;
+        padding-right: 327px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      
+    }
+    .title_complain h2{
+        position: absolute;
+        right: 230px;
+        top: 630px;
+        background-color: rgb(231, 245, 237);
+        padding-left: 11px;
+        padding-right: 219px;
+        padding-top: 10px;
+        padding-bottom: 13px;
+    }
+ 
+     }
+
+    /* div.title>div.love {
+        padding-right: 247px;
+        padding-left: 208px;
+        margin-right: 24px;
+    }
+
+    div.title>div.complain {
+        padding-left: 18px;
+        padding-right: 30px;
+    } */
+
+
+
+    /* .flex {
+        display: flex;
+        justify-content: space-evenly;
+    } */
+
+
+    div.box {
+        background-color: white;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .box>p {
+        padding-left: 50px;
+    }
+
+    .box>.tourist p {
+        padding-left: 18px;
+    }
+
+    div.box:first-child {
+        background-image: url(imgs/heart\ icon.png);
+        background-size: 40px;
+        background-position: 0;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        padding-right: 0px;
+        padding-left: 8px;
+        margin-left: 191px;
+        margin-right: 5px;
+        margin-top: 0;
+
+    }
+
+    div.box:last-child {
+        background-image: url(imgs/chat\ icon.png);
+        background-size: 40px;
+        background-position: 1px;
+        background-repeat: no-repeat;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: 460x;
+        margin-top: 0;
+    }
+
+    div.box p {
+        width: 400px;
+        height: 94px;
+        padding-bottom: 0px;
+        color: black;
+        margin-top: 25px;
+        padding-top: 7px;
+        padding-right: 12px;
+        padding-left: 29px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        text-align: inherit;
+    }
+
+}
+
 
 
 
@@ -309,6 +434,14 @@ div.recolor {
     padding-left: 465px;
     padding-top: 70px;
     font-size: 30px;
+}
+
+@media(min-width:1440px) {
+    div.recolor {
+        padding-left: 460px;
+        padding-top: 70px;
+        font-size: 30px;
+    }
 }
 
 div.recolor h2 {
@@ -589,6 +722,15 @@ div.footerposition {
 
 div.footerposition p {
     text-align: center;
+}
+
+@media(min-width:1440px) {
+    div.footerposition {
+        height: 120px;
+        padding-top: 60px;
+        padding-right: 110px;
+        padding-bottom: 10px;
+    }
 }
 
 @media(max-width:500px) {
