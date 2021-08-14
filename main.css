@@ -362,7 +362,7 @@ div.align:last-child {
 
     div.box:first-child {
         background-image: url(imgs/heart\ icon.png);
-        background-position: 0;
+        background-position:-3px 75px;
         background-repeat: no-repeat;
         margin-right: 10px;
         padding-right: 38px;
@@ -375,7 +375,7 @@ div.align:last-child {
 
     div.box:last-child {
         background-image: url(imgs/chat\ icon.png);
-        background-position: 0px;
+        background-position: 7px 74px;
         background-repeat: no-repeat;
         padding-left: 70px;
         padding-right: 161px;
@@ -386,10 +386,10 @@ div.align:last-child {
 
     div.box p {
         width: 450px;
-        padding-bottom: 30px;
+        padding-bottom: 14px;
         color: black;
-        margin-top: 30px;
-        padding-top: 10px;
+        margin-top: 55px;
+        padding-top: 13px;
         padding-right: 0px;
 
     }
