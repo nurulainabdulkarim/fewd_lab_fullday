@@ -335,6 +335,14 @@ div.align:last-child {
         background-color: rgb(231, 245, 237);
     }
 
+    .love h2{
+    font-size:20px;
+    }
+
+   .complain h2{
+    font-size:20px;
+
+    }
 
 
     .flex {
@@ -393,6 +401,7 @@ div.align:last-child {
         padding-right: 230px;
     }
 
+   
 }
 
 div.recolor {
