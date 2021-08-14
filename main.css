@@ -318,46 +318,48 @@ div.align:last-child {
     }
 
     .love {
-        padding-right: 69px;
-        padding-left: 5px;
-        margin-right: 24px;
-        position:absolute;
-        left:36px;
+        padding-left: 12px;
+        padding-right: 435px;
+        position: absolute;
+        right: 864px;
+        bottom: -423px;
         background-color: rgb(231, 245, 237);
 
     }
 
     .complain {
         padding-left: 18px;
-        padding-right: 30px;
-        position:absolute;
-        right:93em;
+        padding-right: 463px;
+        position: absolute;
+        right: 17.5em;
+        bottom: -423px;
         background-color: rgb(231, 245, 237);
     }
 
-    .love h2{
-    font-size:20px;
+    .love h2 {
+        font-size: 20px;
     }
 
-   .complain h2{
-    font-size:20px;
+    .complain h2 {
+        font-size: 20px;
 
     }
 
 
     .flex {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 157px;
         padding-left: 190px;
         padding-right: 190px;
         padding-top: 62px;
     }
+
     div.box {
         background-color: white;
         margin-top: 50px;
     }
-    
+
     div.box:first-child {
         background-image: url(imgs/heart\ icon.png);
         background-position: 0;
@@ -368,9 +370,9 @@ div.align:last-child {
         margin-left: 31px;
         margin-right: 61px;
         margin-top: 0;
-    
+
     }
-    
+
     div.box:last-child {
         background-image: url(imgs/chat\ icon.png);
         background-position: 0px;
@@ -379,9 +381,9 @@ div.align:last-child {
         padding-right: 161px;
         width: 460x;
         margin-top: 0;
-    
+
     }
-    
+
     div.box p {
         width: 450px;
         padding-bottom: 30px;
@@ -389,19 +391,19 @@ div.align:last-child {
         margin-top: 30px;
         padding-top: 10px;
         padding-right: 0px;
-    
+
     }
-    
+
     div.align {
         display: flex;
         justify-content: space-between;
     }
-    
+
     div.align:last-child {
         padding-right: 230px;
     }
 
-   
+
 }
 
 div.recolor {
@@ -651,7 +653,7 @@ div.buttonbelow button {
         margin-bottom: 50px;
         margin-top: 50px;
     }
-    
+
     div.buttonbelow button {
         background-color: rgb(237, 108, 104);
         color: white;
@@ -663,15 +665,15 @@ div.buttonbelow button {
         font-size: 13px;
         box-shadow: 1px 3px red;
         border-radius: 5px;
-        border: rgb(237, 108, 104); 
+        border: rgb(237, 108, 104);
 
-        
+
     }
-    
+
     .buttonbelow button:hover {
         background-color: rgb(184, 38, 57);
     }
-    
+
 }
 
 .footer {
@@ -695,15 +697,34 @@ div.footerposition p {
         background-color: black;
         color: white;
     }
-    
+
     div.footerposition {
         height: 50px;
         padding-top: 30px;
         padding-right: 10px;
         padding-bottom: 30px;
     }
-    
+
     div.footerposition p {
         text-align: center;
     }
+}
+
+@media(min-width:1440px) {
+    .footer {
+        background-color: black;
+        color: white;
+    }
+
+    div.footerposition {
+        height: 113px;
+        padding-top: 30px;
+        padding-right: 6px;
+        padding-bottom: 30px;
+    }
+
+    div.footerposition p {
+        text-align: center;
+    }
+
 }
